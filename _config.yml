@@ -16,24 +16,49 @@
 title: Nocode startup
 email: info@nocode-startup.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Nocode startupはプログラミングの知識ゼロで、既存のWebサービスを使ってスタートアップのMVPを作る方法や、副業を手軽かつ簡単にスタートする方法を紹介するブログです。
 baseurl:  # the subpath of your site, e.g. /blog
 url: https://www.nocode-startup.com # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tsureezy
 github_username:  tatjapan
+google_analytics: 
+disqus: 'nocode-startup'
+mailchimp-list:
+
+# Authors
+authors:
+  Tatsuya:
+    name: Tatsuya
+    display_name: Tatsuya
+    gravatar: c34d3fad7f6e7d1f5a5014baa942880a
+    email: info@nocode-startup.com
+    web: https://www.nocode-startup.cpm
+    twitter: https://twitter.com/tsureezy
+    description: "当ブログ管理人。ゼロからプログラミングを習得してWebアプリを作成した際の失敗談から得た教訓や、これからアプリを作成して起業する人に向けたアドバイス等々書いていきます。"
 
 # Build settings
 markdown: kramdown
-theme: minima
+highlighter: rouge
+# theme: minima
+
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-archives
 
 paginate: 6
 paginate_path: "/blog/page:num/"
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
