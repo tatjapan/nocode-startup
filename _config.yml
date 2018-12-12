@@ -23,9 +23,8 @@ baseurl:  # the subpath of your site, e.g. /blog
 url: https://www.nocode-startup.com # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tsureezy
 github_username:  tatjapan
-google_analytics: 
+google_analytics: 'UA-130893849-1'
 disqus: 'nocode-startup'
-mailchimp-list:
 
 # Authors
 authors:
