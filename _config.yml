@@ -36,7 +36,7 @@ authors:
     email: tatsuya.tsuri@gmail.com
     web: https://www.nocode-startup.cpm
     twitter: https://twitter.com/tsureezy
-    description: "当ブログ管理人。ゼロからプログラミングを習得してWebアプリを作成した際の失敗談から得た教訓や、これからアプリを作成して起業する人に向けたアドバイス等々書いていきます。"
+    description: "当ブログ管理人。フリーランスWebエンジニア。ゼロからプログラミングを習得してWebアプリを作成した際の失敗談から得た教訓や、これからアプリを作成して起業する人に向けたアドバイス等々書いていきます。"
 
 # Build settings
 markdown: kramdown
