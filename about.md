@@ -4,90 +4,83 @@ title: About - このブログについてと自己紹介
 comments: true
 ---
 
-このブログはプログラミングの知識ゼロで、既存のWebサービスを使ってスタートアップのMVPを作る方法や、副業を手軽かつ簡単にスタートする方法を紹介するブログです。
+このブログはプログラミングの知識ほぼゼロ（No codeまたはLow code）で、既存のWebサービスを使ってスタートアップのMVPを作る方法や、副業を手軽かつ簡単にスタートする方法等を紹介するブログです。　　
 
-私がゼロからプログラミングを習得してWebアプリを作成した際の失敗談から得た教訓や、これからアプリを作成して起業する人に向けたアドバイス、無料または安価にコードを書かず（または簡単なコードをコピペするだけで）サービスが開始できたり、アプリに機能を追加する方法等々書いていきます。
+私の場合もそうでしたが、アイディアを形にして利用者に届けることができるアプリにするまで開発を続けることは、非常に多くの時間やコストがかかってしまいます。  
 
-このブログを読んでいただいた方が、プログラミングの時間を大幅に削減して、浮いた時間をサービス向上やユーザー獲得に使えるようになれば幸いです。
+さらに、それを世の中に投入しても成功するかどうかはわからないため、かけた時間やコストが無駄になるという結果になることも考えられます。
 
-![jekyll template mediumish]({{site.baseurl}}/assets/images/mediumish-jekyll-template.png){: .shadow}
+**しかし今の世の中は、よくよく探してみれば誰でも無料または安価に利用できるWebサービスやアプリが溢れかえっています！**   
+
+それらを組み合わせたり活用したりすることによって、プログラミングの知識が無くても無駄なコストをかけずに、アイディアが市場に受け入れられるかどうか十分な調査をしたり、見込みユーザーを獲得したり、上手くいけばほぼコストをかけることなく収益化を実現することができます！  
+
+そこでこのブログでは、無料または安価にコードを書かずに、または簡単なコードをコピペするだけで利用できる便利なサービスやアプリを紹介し、それらを活用・組み合わせたMVP（実用に足る必要最低限の機能を備えた製品）の作成方法や、アプリやホームページに機能を追加する方法を投稿します。
+
+また私がゼロからプログラミングを習得してWebアプリを作成した際の失敗談から得た教訓や、これからアプリを作成して起業・副業する人に向けたアドバイス等々も書いていきます。
+
+このブログを読んでいただいた方が、プログラミングの時間を大幅に削減して、節約できた時間や費用をユーザー獲得やサービス改善に使えるようになれたなら幸いです。  
+
+![jekyll template mediumish]({{site.baseurl}}/assets/images/shake_hands.jpg){: .shadow}  
 
 ### 自己紹介
-
+---
 - 新卒から約10年間一貫して金融業界で勤務し、サラリーマン時代のプログラミング知識はゼロ。
-- 2017年に起業を決意しエンジニアを募るも、誰一人として協力者が現れず。(つД`)ノ　結局自らがエンジニアになることを決意。^^;
-- Ruby on railsを約8ヶ月独学して2つのWebアプリをローンチ。
+- 海外旅行とMLB観戦とDJが趣味。
+- 2017年に、日本を訪れる観光客と現地の人との間にある情報格差を解消したいという想いから起業を視野に入れて独立を決意。
+- その際エンジニアを募るも、誰一人として協力者が現れず。(つД`)ノ　結局自らがエンジニアになることに。^^;
+- UdemyやYoutube、市販の書籍をベースにRuby on railsを約8ヶ月独学して2つのWebアプリをローンチ。
+- アプリ開発の際に重ねた数々の失敗とそこから得られた教訓を、自分と同じように全くコーディングができないけど起業したい・興味がある人に向けて共有したいという想いから当ブログをローンチ。現在に至る。
+
+私のキャリアをもっと知りたいという方は[こちら](https://www.linkedin.com/in/tatsuya-tsuri/){:target="_blank"} (LinkedIn)
 
 
-### Features
-
-- Built for Jekyll
-- Compatible with Github pages
-- Featured Posts
-- Index Pagination
-- Post Share
-- Post Categories
-- Prev/Next Link
-- Category Archives (this is not yet compatible with github pages though)
-- Jumbotron Categories
-- Integrations:
-    - Disqus Comments
-    - Google Analaytics
-    - Mailchimp Integration
-- Design Features:
-    - Bootstrap v4.x
-    - Font Awesome
-    - Masonry
-- Layouts:
-    - Default
-    - Post
-    - Page
-    - Archive
-    
-### How to Use
-
-If you aren't familiar with Jekyll yet, you should know that it is a static site generator. It will transform your plain text into static websites and blogs. No more databases, slow loading websites, risk of being hacked...just your content. And not only that, with Jekyll you get free hosting with GitHub Pages! This page itself is free hosted on Github with the help of Jekyll and Mediumish template that you're currently previewing. If you are a beginner we recommend you start with [Jekyll's Docs](https://jekyllrb.com/docs/installation/){:target="_blank"}. Now if you know how to use Jekyll, let's move on to using Mediumish template in Jekyll:
-
-#### Using Mediumish
-
-Download or Fork *Mediumish for Jekyll*. 
-- In your local project, open <code>_config.yml</code>. If your site is in root, for <code>baseurl</code>, make sure this is set to <code>baseurl: /</code>. Also, change your Google Analytics code, disqus username, authors, Mailchimp list etc.
-- Mediumish requires 2 plugins: 
-    - <code>$ gem install jekyll-paginate</code>
-    - <code>$ gem install jekyll-archives</code>.
-- Edit the menu and footer copyrights in <code>default.html</code>
-- Start by adding your .md files in <code>_posts</code>. Mediumish already has a few as an example. 
-- YAML front matter
-    - featured post - <code>featured:true</code>
-    - exclude featured post from "All stories" loop to avoid duplicated posts - <code>hidden:true</code>
-    - post image - <code>image: assets/images/mypic.jpg</code>
-    - external post image - <code>image: "https://externalwebsite.com/image4.jpg" </code>
-    - page comments - <code>comments:true</code>
-    - meta description (optional) - <code>description: "this is my meta description"</code>
-    
-YAML Post Example:
-<pre>
+### 開発したもの
 ---
-layout: post
-title:  "We all wait for summer"
-author: Tatsuya
-categories: [ Jekyll, tutorial ]
-image: assets/images/5.jpg
-featured: true
----
-</pre>
+#### Joltieee(ジョルティー)
+デビュー作。訪日観光客向けイベント・体験マッチングプラットフォーム。[https://www.joltieee.com/](https://www.joltieee.com/){:target="_blank"}  
+名前の由来は、Japan, Original, Local, Travel, Intercultural, Exchange, Enrich, Experienceの頭文字を組み合わせました。  
+##### 特徴
+- Ruby on rails製（React Native用のバックエンドAPIも実装しています）
+- メールアドレスまたはFacebookアカウントによる無料ユーザー登録
+- リアルタイムプライベートメッセージ機能
+- 予約確定時の通知機能
+- 電話番号認証機能及び予約確認SMS送信
+- 地域や価格、ジャンル等を条件としたイベント・体験の検索
+- ゲスト・ホストレビュー機能  
 
-YAML Page Example
-<pre>
----
-layout: page
-title: Mediumish Template for Jekyll
-comments: true
----
-</pre>
+- ホストユーザー機能:
+    - 「体験」と「イベント」二種類のリスティング作成
+    - ダッシュボード上でのリスティング編集
+    - 体験提供可否日程をホストカレンダー上で管理可能
+    - 体験・イベント料金の指定口座振込（Stripeアカウント連動）
+- ゲストユーザー機能:
+    - 24時間キャンセル対応フォーム
+    - クレジットカード情報登録　　  
+      
+#### Jbonics(ジェイボニックス)
+二作目。日本語のスラングや流行語の英訳共有SNS。[https://www.jbonics.com/](https://www.jbonics.com/){:target="_blank"}  
+名前の由来は、JapanとEbonics(黒人英語)を組み合わせました。  
 
-#### Contribute
+##### 特徴
+- Ruby on rails製（React Native用のバックエンドAPIも実装しています）
+- メールアドレスまたはFacebookアカウント、Twitterアカウントによる無料ユーザー登録
+- Wordの投稿・編集（WYSIWYG editor）
+- Like / Dislike(一定数のDislikeが付いたWordは自動的に削除されます)
+- ユーザーフォロー機能
+- Wordまたはユーザー検索
+- ブックマーク機能
+- ハッシュタグ追加とハッシュタグ検索
+- コメント投稿
+- 悪質な投稿とコメントの通報機能
 
-- [Clone the repo](https://github.com/wowthemesnet/mediumish-theme-jekyll).
-- Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
-- Open a pull request on GitHub and describe the feature or fix.
+- 有料会員（月額400円。登録後最初の1ヶ月は無料）:
+    - Likeの数や秀逸な投稿を検索できる高度検索機能
+    - 広告非表示
+    - ブックマーク最大3000件  
+
+      
+### お仕事のご依頼
+---
+ 私の[Facebookアカウント](https://www.facebook.com/tatsuya.tsuri){:target="_blank"}か[Twitterアカウント](https://twitter.com/tsureezy){:target="_blank"}までメッセージください。📨  
+ 特にシェアリングエコノミーサービスやSNSの開発をご検討されている方は、素早いWebアプリ提供が可能ですので、開発時間の大幅削減によりサービス改善やユーザー獲得により集中していただけます！  
+ その他のWebアプリ開発や、金融機関での実務経験を基にした事業計画の作成支援についてもご相談承ります！また必要に応じて優秀なエンジニアをご紹介することも可能ですのでお気軽にお問い合わせください！👍
