@@ -38,7 +38,7 @@ comments: true
 ---
 #### Joltieee(ジョルティー)
 デビュー作。訪日観光客向けイベント・体験マッチングプラットフォーム。[https://www.joltieee.com/](https://www.joltieee.com/){:target="_blank"}  
-名前の由来は、Japan, Original, Local, Travel, Intercultural, Exchange, Enrich, Experienceの頭文字を組み合わせました。  
+名前の由来: Japan, Original, Local, Travel, Intercultural, Exchange, Enrich, Experienceの頭文字を組み合わせました。  
 ##### 特徴
 - Ruby on rails製（React Native用のバックエンドAPIも実装しています）
 - メールアドレスまたはFacebookアカウントによる無料ユーザー登録
@@ -59,7 +59,7 @@ comments: true
       
 #### Jbonics(ジェイボニックス)
 二作目。日本語のスラングや流行語の英訳共有SNS。[https://www.jbonics.com/](https://www.jbonics.com/){:target="_blank"}  
-名前の由来は、JapanとEbonics(黒人英語)を組み合わせました。  
+名前の由来: JapanとEbonics(黒人英語)を組み合わせました。  
 
 ##### 特徴
 - Ruby on rails製（React Native用のバックエンドAPIも実装しています）
