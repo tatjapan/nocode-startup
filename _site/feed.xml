@@ -2,12 +2,119 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nocode startup</title>
-    <description>Nocode startupはプログラミングの知識ほぼゼロで、既存のWebサービスを使ってスタートアップのMVPを作る方法や、副業を手軽かつ簡単にスタートする方法を紹介するブログです。</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Dec 2018 17:13:06 +0900</pubDate>
-    <lastBuildDate>Tue, 25 Dec 2018 17:13:06 +0900</lastBuildDate>
+    <description>Nocode startupはプログラミングの知識ほぼゼロで、既存のWebサービスを使ってスタートアップのMVPを低コストで作る方法や、副業を手軽かつ簡単にスタートする方法などを紹介するブログです。</description>
+    <link>https://www.nocode-startup.com/</link>
+    <atom:link href="https://www.nocode-startup.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 26 Dec 2018 17:11:52 +0900</pubDate>
+    <lastBuildDate>Wed, 26 Dec 2018 17:11:52 +0900</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Nocode startupというブログタイトルにも関わらず自己矛盾を抱えてブログを自作した経緯</title>
+        <description>&lt;p&gt;はてなブログや、アメブロ、note、Medium等、単にブログ始めるだけなら自作せずとも、無料で利用できて誰でもかっこいいブログが開設できる素晴らしいサービスが今の世の中にはごまんとある。その気になればFacebookやTwitterのようなSNSもブログのように使うことができる。　　&lt;/p&gt;
+
+&lt;p&gt;コーディングやSEO対策等煩わしいので、これらを利用して情報発信することも前向きに考えた。むしろ当初はてなブログを利用しようとnocode-startupのアカウントまで取得していた。　　&lt;/p&gt;
+
+&lt;p&gt;記念すべき第1回目の投稿は、&lt;a href=&quot;https://www.nocode-startup.com/about&quot; target=&quot;_blank&quot;&gt;Aboutページ&lt;/a&gt; で”究極的にはコードを書かないのが一番だ”とか言っておきながら、なぜNocodeというポリシーに反して既存サービスの利用を見送り、このブログを自作するに至ったのかについて記していきたい。　　&lt;/p&gt;
+
+&lt;h3 id=&quot;知識のさらなる活用術を模索したい&quot;&gt;知識のさらなる活用術を模索したい&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;全くもって身も蓋もなく非合理的ではあるが、要するに知的好奇心が一番の理由だ。&lt;/p&gt;
+
+&lt;p&gt;自分の知識を資産とするのであれば、Webアプリ開発で得た諸々の知識をRailsにしか使わないのはROAが低く、レバレッジが効いているとは言えないだろう。&lt;/p&gt;
+
+&lt;p&gt;せっかくそれなりの手間をかけて得た知識であるならば、もっとフル活用してRails以外にも色々できるようになった方が広がりがあって楽しいと個人的には思った次第だ。&lt;/p&gt;
+
+&lt;h3 id=&quot;rails--heroku以外の安上がりなサイト公開方法が知りたかった&quot;&gt;Rails + Heroku以外の安上がりなサイト公開方法が知りたかった&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;私自身が金欠なこともあり、以前からなるべく年間1,000円程度のドメイン代のみで簡単にそれなりの独自サイトを構築する方法を模索していた。&lt;br /&gt;
+ちなみにこれまでに開発したWebアプリはRails + Herokuの組み合わせで独自ドメイン代+Heroku月額使用料（無料利用できるが独自ドメイン使用の場合は有料）+その他API月額使用料がかかっていた。&lt;/p&gt;
+
+&lt;p&gt;重要なプロジェクトであれば上記の費用は必要経費として止む無しと受け入れることができるし、開発に時間とコストをかけるのも納得ができる。しかし今回の一サイドプロジェクトのブログのためにRailsを使うのはやや過剰だし、WordPressもメンテナンスが面倒だから嫌い（笑）。加えて出来ることならお金をかけてサーバーを借りたり、PaaSの有料プランを契約したくないといった駄々をこねる子供のような思考が巡っていたところ、ちょうど知り合いのShunさんがブログで&lt;a href=&quot;https://workabroad.jp/posts/2225&quot; target=&quot;_blank&quot;&gt;高速でメンテナンスが簡単な静的サイトを作る方法&lt;/a&gt;を公開していて、内容が正に私の求めるものだったので渡りに船と言わんばかりに真似をすることに決めた。有益な情報ありがとうございます！🙇‍♂️&lt;/p&gt;
+
+&lt;h3 id=&quot;サイト構築と公開&quot;&gt;サイト構築と公開&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;私の場合、お名前.comのタイムセールで年間500円+消費税で取得した。もちろん他のサイトでドメインを取得しても問題ない。&lt;br /&gt;
+その他は全て無料で以下のサービスを利用した。ここでは各種サービスのインストール方法や設定方法を順を追って説明していきたい。&lt;/p&gt;
+
+&lt;h4 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h4&gt;
+&lt;p&gt;静的サイトジェネレーター&lt;br /&gt;
+&lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;https://jekyllrb.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Macユーザーの方や、一度でもRubyやRailsの開発環境を構築された方なら以下のコマンドを叩けば即利用可。そうでない方は&lt;a href=&quot;https://www.sejuku.net/blog/3958#Ruby-3&quot; target=&quot;_blank&quot;&gt;こちら&lt;/a&gt;を参照いただきRubyをインストールする必要あり。&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Jekyllインストール&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bundler&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 例としてmyblogというタイトルのサイトを作成&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myblog&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# ディレクトリの変更&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myblog&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 動作確認 http://localhost:4000&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;serve&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h4 id=&quot;jekyll-themes&quot;&gt;Jekyll Themes&lt;/h4&gt;
+&lt;p&gt;ブログテンプレートを多数公開しているサイト&lt;br /&gt;
+&lt;a href=&quot;http://jekyllthemes.org/&quot; target=&quot;_blank&quot;&gt;http://jekyllthemes.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;コーディングが面倒な方はここからお好みのものを選んで使えばOK。ただし使用時のライセンスには注意が必要。&lt;/p&gt;
+
+&lt;h4 id=&quot;github&quot;&gt;Github&lt;/h4&gt;
+&lt;p&gt;ここにレポジトリを作って、公開したいサイトのJekyllソースコードをpushしましょう。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-git&quot;&gt;$ git init
+$ git add .
+$ git commit -m &quot;Initial commit&quot;
+$ git remote add origin my-github-repository-url
+$ git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;netlify&quot;&gt;Netlify&lt;/h4&gt;
+&lt;p&gt;無料で利用できるホスティングサービス&lt;br /&gt;
+&lt;a href=&quot;https://www.netlify.com&quot; target=&quot;_blank&quot;&gt;https://www.netlify.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;しかも独自ドメインの設定とサイトの常時SSL接続（https）が無料！！💗&lt;/p&gt;
+
+&lt;p&gt;まずはSign Upから無料登録（メールアドレスでの登録の他、Githubアカウントの認証可能。）&lt;br /&gt;
+アカウントを作成したら、Continuous Developmentの項目で、ソースコードをpushしたGithubレポジトリを選択。&lt;br /&gt;
+これでpushされる都度、内容が自動更新されるようになる。
+&lt;img src=&quot;/assets/images/create_new_site.jpg&quot; alt=&quot;create_new_site&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+次に各自ドメインを購入したサイトの設定方法でDNSをNetlifyに設定する。
+&lt;img src=&quot;/assets/images/cname.jpg&quot; alt=&quot;cname&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+最後にDomain Settingから購入したドメインを設定したら完了。私の場合だいたい5分くらいで独自ドメインが適用された。
+&lt;img src=&quot;/assets/images/custom_domain.jpg&quot; alt=&quot;custom_domain&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;&lt;br /&gt;&lt;/h2&gt;
+&lt;p&gt;以上。私はデザインテンプレートを使ったので、作成から公開まで30分くらいでできた！&lt;br /&gt;
+爆速！！！&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;参考&quot;&gt;参考&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;Jekyll + Netlify + Cloudinary で高速なウェブサイトを無料で公開する&lt;br /&gt;
+&lt;a href=&quot;https://workabroad.jp/posts/2225&quot; target=&quot;_blank&quot;&gt;https://workabroad.jp/posts/2225&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 26 Dec 2018 00:00:00 +0900</pubDate>
+        <link>https://www.nocode-startup.com/jekyll/netlify/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/%E9%9B%91%E8%AB%87/2018/12/26/why-I-made-this-blog-with-jekyll.html</link>
+        <guid isPermaLink="true">https://www.nocode-startup.com/jekyll/netlify/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/%E9%9B%91%E8%AB%87/2018/12/26/why-I-made-this-blog-with-jekyll.html</guid>
+        
+        
+        <category>Jekyll</category>
+        
+        <category>Netlify</category>
+        
+        <category>プログラミング</category>
+        
+        <category>雑談</category>
+        
+      </item>
     
       <item>
         <title>Powerful things you can do with the Markdown editor</title>
@@ -51,8 +158,8 @@
 &lt;p&gt;&lt;iframe style=&quot;width:100%;&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/jekyll/tutorial/2018/06/12/powerful-things-markdown-editor.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/tutorial/2018/06/12/powerful-things-markdown-editor.html</guid>
+        <link>https://www.nocode-startup.com/jekyll/tutorial/2018/06/12/powerful-things-markdown-editor.html</link>
+        <guid isPermaLink="true">https://www.nocode-startup.com/jekyll/tutorial/2018/06/12/powerful-things-markdown-editor.html</guid>
         
         
         <category>Jekyll</category>
@@ -76,8 +183,8 @@
 &lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original - which sees Little Red Riding Hood being gobbled up as well as her grandmother - is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/jekyll/tutorial/2018/06/12/first-mass-produced.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/tutorial/2018/06/12/first-mass-produced.html</guid>
+        <link>https://www.nocode-startup.com/jekyll/tutorial/2018/06/12/first-mass-produced.html</link>
+        <guid isPermaLink="true">https://www.nocode-startup.com/jekyll/tutorial/2018/06/12/first-mass-produced.html</guid>
         
         
         <category>Jekyll</category>
@@ -130,8 +237,8 @@
 &lt;p&gt;&lt;iframe style=&quot;width:100%;&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/jekyll/tutorial/2018/06/12/education.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/tutorial/2018/06/12/education.html</guid>
+        <link>https://www.nocode-startup.com/jekyll/tutorial/2018/06/12/education.html</link>
+        <guid isPermaLink="true">https://www.nocode-startup.com/jekyll/tutorial/2018/06/12/education.html</guid>
         
         
         <category>Jekyll</category>
@@ -155,8 +262,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/jekyll/tutorial/2018/06/12/acumulated-experience.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/tutorial/2018/06/12/acumulated-experience.html</guid>
+        <link>https://www.nocode-startup.com/jekyll/tutorial/2018/06/12/acumulated-experience.html</link>
+        <guid isPermaLink="true">https://www.nocode-startup.com/jekyll/tutorial/2018/06/12/acumulated-experience.html</guid>
         
         
         <category>Jekyll</category>
@@ -178,8 +285,8 @@
 &lt;p&gt;For more information about how to use &lt;code class=&quot;highlighter-rouge&quot;&gt;Bundler&lt;/code&gt; in your Jekyll project, this tutorial should provide answers to the most common questions and explain how to get up and running quickly.&lt;/p&gt;
 </description>
         <pubDate>Sat, 12 May 2018 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/jekyll/2018/05/12/about-bundler.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/2018/05/12/about-bundler.html</guid>
+        <link>https://www.nocode-startup.com/jekyll/2018/05/12/about-bundler.html</link>
+        <guid isPermaLink="true">https://www.nocode-startup.com/jekyll/2018/05/12/about-bundler.html</guid>
         
         
         <category>Jekyll</category>
@@ -193,8 +300,8 @@
 &lt;p&gt;It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/jekyll/tutorial/2018/01/12/we-all-wait-for-summer.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/tutorial/2018/01/12/we-all-wait-for-summer.html</guid>
+        <link>https://www.nocode-startup.com/jekyll/tutorial/2018/01/12/we-all-wait-for-summer.html</link>
+        <guid isPermaLink="true">https://www.nocode-startup.com/jekyll/tutorial/2018/01/12/we-all-wait-for-summer.html</guid>
         
         
         <category>Jekyll</category>
@@ -219,8 +326,8 @@
 
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/jekyll/tutorial/2018/01/12/tree-of-codes.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/tutorial/2018/01/12/tree-of-codes.html</guid>
+        <link>https://www.nocode-startup.com/jekyll/tutorial/2018/01/12/tree-of-codes.html</link>
+        <guid isPermaLink="true">https://www.nocode-startup.com/jekyll/tutorial/2018/01/12/tree-of-codes.html</guid>
         
         
         <category>Jekyll</category>
@@ -244,8 +351,8 @@
 &lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original — which sees Little Red Riding Hood being gobbled up as well as her grandmother — is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/jekyll/tutorial/2018/01/12/red-riding.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/tutorial/2018/01/12/red-riding.html</guid>
+        <link>https://www.nocode-startup.com/jekyll/tutorial/2018/01/12/red-riding.html</link>
+        <guid isPermaLink="true">https://www.nocode-startup.com/jekyll/tutorial/2018/01/12/red-riding.html</guid>
         
         
         <category>Jekyll</category>
@@ -272,31 +379,8 @@
 
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/jekyll/tutorial/2018/01/12/press-and-education.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/tutorial/2018/01/12/press-and-education.html</guid>
-        
-        
-        <category>Jekyll</category>
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Options for creating a new site with Jekyll</title>
-        <description>&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new &amp;lt;PATH&amp;gt;&lt;/code&gt; installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called &lt;code class=&quot;highlighter-rouge&quot;&gt;myblog&lt;/code&gt;. Here are some additional details:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;To install the Jekyll site into the directory you’re currently in, run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; . If the existing directory isn’t empty, you can pass the –force option with jekyll new . –force.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; automatically initiates &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; to install the dependencies required. (If you don’t want Bundler to install the gems, use &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new myblog --skip-bundle&lt;/code&gt;.)&lt;/li&gt;
-  &lt;li&gt;By default, the Jekyll site installed by &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; uses a gem-based theme called Minima. With gem-based themes, some of the directories and files are stored in the theme-gem, hidden from your immediate view.&lt;/li&gt;
-  &lt;li&gt;We recommend setting up Jekyll with a gem-based theme but if you want to start with a blank slate, use &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new myblog --blank&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;To learn about other parameters you can include with &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt;, type &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new --help&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 12 Jan 2018 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/jekyll/tutorial/2018/01/12/options-for-creating-new-site-with-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/tutorial/2018/01/12/options-for-creating-new-site-with-jekyll.html</guid>
+        <link>https://www.nocode-startup.com/jekyll/tutorial/2018/01/12/press-and-education.html</link>
+        <guid isPermaLink="true">https://www.nocode-startup.com/jekyll/tutorial/2018/01/12/press-and-education.html</guid>
         
         
         <category>Jekyll</category>

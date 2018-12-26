@@ -1,9 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/about.html</loc>
+  <loc>https://www.nocode-startup.com/</loc>
+  <priority>1.0</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+  <loc>https://www.nocode-startup.com/index.html</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
 </url>
+<url>
+  <loc>https://www.nocode-startup.com/about</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.nocode-startup.com/jekyll/tutorial/2018/01/11/quick-start-guide.html</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.nocode-startup.com/jekyll/tutorial/2018/01/11/customer-service.html</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.nocode-startup.com/jekyll/tutorial/2018/06/12/powerful-things-markdown-editor.html</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.nocode-startup.com/jekyll/tutorial/2018/06/12/first-mass-produced.html</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.nocode-startup.com/jekyll/tutorial/2018/06/12/education.html</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.nocode-startup.com/jekyll/tutorial/2018/06/12/acumulated-experience.html</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.nocode-startup.com/jekyll/2018/05/12/about-bundler.html</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.nocode-startup.com/jekyll/tutorial/2018/01/12/we-all-wait-for-summer.html</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.nocode-startup.com/blog/page2/</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.nocode-startup.com/category/Jekyll</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.nocode-startup.com/category/tutorial</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.nocode-startup.com/category/jekyll/</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.nocode-startup.com/category/tutorial/</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.nocode-startup.com/jekyll/tutorial/2018/01/12/is-intelligence-enough.html</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.nocode-startup.com/jekyll/tutorial/2018/01/12/tree-of-codes.html</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.nocode-startup.com/jekyll/tutorial/2018/01/12/red-riding.html</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.nocode-startup.com/jekyll/tutorial/2018/01/12/press-and-education.html</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.nocode-startup.com/jekyll/tutorial/2018/01/12/options-for-creating-new-site-with-jekyll.html</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.nocode-startup.com/jekyll/2018/01/12/never-stopped-worrying-never-loved-bomb.html</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+
 </urlset>
